@@ -1,0 +1,450 @@
+/* Font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif; 
+    background-color: black;
+    color: white;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 1);
+}
+h5{
+    font-size: 1.2rem;
+}
+
+.primary-color{
+    color: rgba(230, 83, 60, 1);
+}
+.primary-bgcolor{
+    background-color:rgba(230, 83, 60, 1) ;
+}
+.primary-btn{
+    background-color:rgba(230, 83, 60, 1) ;
+    color: #FFFFFF ;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+
+}
+.secondary-btn{
+    background-color: black;
+    color: #FFFFFF ;
+    border: 0.1rem solid #FFFFFF ;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    margin-left: 1rem;
+}
+/* Header Style */
+.header-section{
+    min-height: 40rem;
+    background-image: linear-gradient(to left,rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
+    padding-top: 2rem;
+}
+/* Navbar Style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.logo{
+    max-width: 40%;
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2.3rem;
+    
+}
+.nav-iteam{
+    max-width: 60%;
+    border:  0.1rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.2rem;
+}
+.nav-iteam ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding: 0.2rem;
+}
+
+.nav-iteam a:hover {
+    background-color: rgba(230, 83, 60, 1) ;
+    transition: 25ms;
+}
+.nav-iteam a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: white;
+    font-weight: normal;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    border-radius:1rem ;
+}
+.nav-icon{
+    display: none;
+}
+
+/* Banner Style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.banner-title{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    font-size: 2.8rem;
+}
+.banner-description{
+    display: flex;
+    text-align: left;
+    font-size: 0.7;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-btn{
+    display: flex;
+}
+.btn-1:hover{
+    background-color: #FFFFFF;
+    color: rgba(230, 83, 60, 1) ;
+   
+}
+.banner-image{
+    max-width: 50%;
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+.banner-image img{
+    position: relative;
+}
+.item-1{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 8rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding: 1rem;
+    position: absolute;
+    top: 15rem;
+    right: 9rem;
+}
+.num{
+    font-size: 40px;
+}
+.num-description{
+    font-size: 13px;
+    
+}
+
+.circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(230, 83, 60, 1);
+    border: none;
+    border-radius: 50%;
+}
+.item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    position: absolute;
+   top:33rem;
+    right: 30rem;
+}
+
+/* Habit Style */
+.habit-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.habit-content-description{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 20rem;
+
+}
+.habit-image{
+    display: flex;
+    gap: 0.6rem;
+}
+.habit-img-content img{
+    width: 180px;
+    height: 180px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+}
+.habit-img-description{
+    font-size: 0.8rem;
+    padding: 0.3rem 3rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-section{
+    /* max-height: 22rem; */
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 2rem;
+}
+.run-content{
+    width: 50%;
+    padding: 3rem;
+    
+}
+.run-title{
+    padding-right:20rem;
+}
+.run-description{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 2rem;
+    padding-right: 10rem;
+}
+.run-btn{
+    padding:1rem 3.5rem ;
+    margin-top: 2rem;
+}
+.run-img{
+    display: flex;
+    padding: 2.5rem;
+}
+.run-img img{
+    width: 20rem;
+    height: 17rem;
+    border: none;
+    border-radius: 1.5rem;  
+}
+
+/* Trainings and Exercises Style */
+ .exercise-section{
+    margin-top: 3rem;
+ }
+ .exercise-content-description{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 35rem 1.5rem 0;
+ }
+.exercise-images{
+    background-color: aliceblue;
+    max-width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+.img-1{
+    background-color: aqua;
+    /* max-width: 100%; */
+    height: 50px;
+    grid-template-columns: repeat(1/span 8);
+}
+.img-3{
+    background-color: blue;
+    height: 50px;
+}
+
+
+
+/* Footer Style */
+.footer-section{
+    background-color: rgba(255, 255, 255, 0.1) ;
+}
+.footer-section hr{
+    margin-top: 2rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 2rem;
+}
+.footer-logo{
+    max-width: 45%;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+/* Small Device Responsive */
+@media screen and ( max-width:576px){
+    /* Common Style */
+    
+
+
+    /* Nav Responsive */
+    .header-section{
+       
+        background-image: linear-gradient(to top,rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
+    }
+    .logo{
+        font-size: 1.8rem;
+    }
+    .nav-iteam{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    /* Banner Respobsive */
+    .banner{
+        flex-direction: column;
+        align-items: start;
+    }
+    .banner-content{
+        max-width: 90%;
+        padding-top: 1rem;
+        gap: 0.5rem;  
+    }
+    .banner-title{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        margin-top: 0.1rem;
+    }
+    .banner-btn{
+        justify-content: left;
+        margin-top:  0.1rem;
+    }
+    .primary-btn{
+        border-radius: 1.5rem;
+        padding: 1rem ;
+    
+    }
+    .secondary-btn{
+        border-radius: 1.5rem;
+        padding: 1rem ;
+    
+    }
+    .banner-image{
+        max-width: 90%;
+        padding-top: 1rem;
+        
+    }
+    .banner-image img{
+        width: 250px;
+    }
+    .item-1{
+        top: 30rem;
+        right: 0.5rem;
+    }
+    .item-2{
+        top: 42rem;
+        right:  7rem;
+    }
+    /* Habit Section */
+    .habit-image{
+        flex-direction: column;
+    }
+    .habit-content-title{
+        font-size: 1.8rem;
+    }
+    .habit-content-description{
+        font-size: 0.9rem;
+        /* padding: 0.5rem 20rem; */
+        padding: 0 0.5rem;
+    
+    }
+    /* Run sectipn */
+    .run-section{
+        flex-direction: column;
+        max-width: 95%;
+    }
+    .run-img{
+        padding: 1rem;
+    }
+    .run-img img{
+        width: 15rem;
+        height: 10rem;
+    }
+    .run-content{
+        min-width: 95%;
+        padding: 1rem;
+        
+    }
+    .run-title{
+        font-size: 2rem;
+        padding:0rem;
+        
+    }
+    .run-description{
+        font-size: 0.8rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+    .run-btn{
+        padding:1rem 5.9rem ;
+        margin-top: 1rem;
+    }
+
+    /* Trainings and Exercises */
+    .exercise-content-title{
+        font-size: 1.8rem;
+    }
+    .exercise-content-description{
+        font-size: 0.9rem;
+        padding: 0;
+        margin-top: 1rem;
+     }
+
+    /* Footer Section */
+    
+    .footer-content{
+        flex-direction: column;
+    }
+}
