@@ -218,6 +218,7 @@ h5{
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
     padding: 0.5rem 20rem;
+    margin-top: 1rem;
 
 }
 .habit-image{
@@ -498,13 +499,13 @@ h5{
     }
     .item-1{
         top: 35rem;
-        right: 1rem;
+        right: 7rem;
         padding: 0.7rem;
         border-radius: 0.6rem;
     }
     .item-2{
         top: 45rem;
-        right:  10rem;
+        right: 22rem;
         padding: 0.7rem;
         border-radius: 0.6rem;
     }
@@ -531,32 +532,32 @@ h5{
     /* Run sectipn */
     .run-section{
         flex-direction: column;
-        max-width: 95%;
+        max-width: 100%;
     }
     .run-img{
-        padding: 1rem;
+        padding: 2rem;
     }
     .run-img img{
-        width: 15rem;
-        height: 10rem;
+        width: 28rem;
+        height: 20rem;
     }
     .run-content{
-        min-width: 95%;
-        padding: 1rem;
+        min-width: 100%;
+        padding: 2rem;
         
     }
     .run-title{
         font-size: 2rem;
-        padding:0rem;
+        padding-right:20rem;
         
     }
     .run-description{
         font-size: 0.8rem;
         padding-top: 1rem;
-        padding-right: 1rem;
+        padding-right: 5rem;
     }
     .run-btn{
-        padding:1rem 5.9rem ;
+        padding:1rem 11rem ;
         margin-top: 1rem;
     }
 
