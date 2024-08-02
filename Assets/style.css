@@ -1,5 +1,8 @@
 /* Font CDN */
+    /* Inter Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    /* Miama Font */
+    @import url('https://fonts.cdnfonts.com/css/miama');
 
 /* Common Style */
 *{
@@ -39,6 +42,7 @@ h5{
     border: none;
     border-radius: 2rem;
     padding: 1rem 2.5rem;
+    font-size: 1.2rem;
 
 }
 .secondary-btn{
@@ -48,6 +52,8 @@ h5{
     border-radius: 2rem;
     padding: 1rem 2.5rem;
     margin-left: 1rem;
+    font-size: 1.2rem;
+
 }
 /* Header Style */
 .header-section{
@@ -121,6 +127,11 @@ h5{
     /* margin: 0 auto; */
     font-size: 2.8rem;
 }
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 4rem;
+                                                
+}
 .banner-description{
     display: flex;
     text-align: left;
@@ -149,8 +160,8 @@ h5{
 }
 .item-1{
     background-color: rgba(255, 255, 255, 0.1);
-    width: 8rem;
-    height: 4rem;
+    /* width: 8rem;
+    height: 4rem; */
     border: none;
     border-radius: 1.2rem;
     display: flex;
@@ -183,8 +194,8 @@ h5{
     align-items: center;
     gap: 0.5rem;
     background-color: rgba(255, 255, 255, 0.1);
-    width:10rem;
-    height: 4rem;
+    /* width:10rem;
+    height: 4rem; */
     border: none;
     border-radius: 1.2rem;
     padding: 1rem;
@@ -417,7 +428,7 @@ h5{
 
 
 /* Small Device Responsive */
-@media screen and ( max-width:576px){
+@media screen and ( max-width:320px){
     /* Common Style */
     
 
@@ -442,7 +453,7 @@ h5{
         align-items: start;
     }
     .banner-content{
-        max-width: 90%;
+        max-width: 100%;
         padding-top: 1rem;
         gap: 0.5rem;  
     }
@@ -454,17 +465,23 @@ h5{
         margin-top: 0.1rem;
     }
     .banner-btn{
-        justify-content: left;
-        margin-top:  0.1rem;
+        justify-content:space-between ;
+        margin-top:  0.5rem;
+       
     }
     .primary-btn{
         border-radius: 1.5rem;
-        padding: 1rem ;
+        padding:1rem ;
+        font-size: 1rem;
+        
+
     
     }
     .secondary-btn{
         border-radius: 1.5rem;
         padding: 1rem ;
+        font-size: 0.9rem;
+
     
     }
     .banner-image{
@@ -476,12 +493,228 @@ h5{
         width: 250px;
     }
     .item-1{
-        top: 30rem;
-        right: 0.5rem;
+        top: 35rem;
+        right: 1rem;
+        padding: 0.7rem;
+        border-radius: 0.6rem;
     }
     .item-2{
-        top: 42rem;
-        right:  7rem;
+        top: 45rem;
+        right:  10rem;
+        padding: 0.7rem;
+        border-radius: 0.6rem;
+    }
+    .num{
+        font-size: 30.5px;
+    }
+    .num-description{
+        font-size: 9.5px;
+        
+    }
+    /* Habit Section */
+    .habit-image{
+        flex-direction: column;
+    }
+    .habit-content-title{
+        font-size: 1.8rem;
+    }
+    .habit-content-description{
+        font-size: 0.9rem;
+        /* padding: 0.5rem 20rem; */
+        padding: 0 0.5rem;
+    
+    }
+    /* Run sectipn */
+    .run-section{
+        flex-direction: column;
+        max-width: 95%;
+    }
+    .run-img{
+        padding: 1rem;
+    }
+    .run-img img{
+        width: 15rem;
+        height: 10rem;
+    }
+    .run-content{
+        min-width: 95%;
+        padding: 1rem;
+        
+    }
+    .run-title{
+        font-size: 2rem;
+        padding:0rem;
+        
+    }
+    .run-description{
+        font-size: 0.8rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+    .run-btn{
+        padding:1rem 5.9rem ;
+        margin-top: 1rem;
+    }
+
+    /* Trainings and Exercises */
+    .exercise-content-title{
+        font-size: 1.8rem;
+    }
+    .exercise-content-description{
+        font-size: 0.9rem;
+        padding: 0;
+        margin-top: 1rem;
+     }
+
+     .exercise-images{
+        height: 150px;
+        margin-top: 1rem;
+        
+        
+    }
+    .img-1{
+        grid-column: 1/span 6;
+    }
+    .img-2{
+        grid-column: 7/span 6;
+        background-position: right;
+    }
+    .img-3{
+       display: none;
+        
+    }
+    .img-1 h4{
+        bottom: 1rem ;
+        left: 2rem;
+        color: rgba(255, 255, 255, 1);
+    }
+    .img-2 h4{
+       
+        top: 1rem ;
+        left: 2rem;
+    }
+    .training-image{
+        height: 150px;
+    }
+    .image-1{
+        grid-column: 1/span 6;
+    }
+    .image-2{
+        grid-column: 7/span 8;
+    }
+    .image-3{
+        display: none;  
+    }
+    .image-1 p{
+        display: none;
+    }
+    .image-2 p{
+        display: none;
+    }
+    .image-1 h4{
+        display: block;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+    }
+    .image-2 h4{
+        display: block;
+        position: absolute;
+        bottom: 1rem;
+        left: 2.5rem;
+    }
+
+    /* Footer Section */
+    
+    .footer-content{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+/* Moblie Device Responsive */
+@media screen and (min-width:320.5px) and ( max-width:576px){
+    /* Common Style */
+    
+
+
+    /* Nav Responsive */
+    .header-section{
+       
+        background-image: linear-gradient(to top,rgba(17, 17, 17, 1),rgba(119, 119, 119, 0));
+    }
+    .logo{
+        font-size: 1.8rem;
+    }
+    .nav-iteam{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    /* Banner Respobsive */
+    .banner{
+        flex-direction: column;
+        align-items: start;
+    }
+    .banner-content{
+        max-width: 100%;
+        padding-top: 1rem;
+        gap: 0.5rem;  
+    }
+    .banner-title{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        margin-top: 0.1rem;
+    }
+    .banner-btn{
+        margin-top:  0.1rem;
+        justify-content: space-between;
+    }
+    .primary-btn{
+        /* border-radius: 1rem; */
+        padding: 1.5rem ;
+    
+    }
+    .secondary-btn{
+        /* border-radius: 1.5rem; */
+        padding: 1.5rem ;
+    
+    }
+    
+    .banner-image{
+        max-width: 90%;
+        padding-top: 1rem;
+        
+    }
+    .banner-image img{
+        width: 250px;
+    }
+    .item-1{
+        top: 35rem;
+        right: 1rem;
+        padding: 0.7rem;
+        border-radius: 0.6rem;
+    }
+    .item-2{
+        top: 45rem;
+        right:  10rem;
+        padding: 0.7rem;
+        border-radius: 0.6rem;
+    }
+    .num{
+        font-size: 30.5px;
+    }
+    .num-description{
+        font-size: 9.5px;
+        
     }
     /* Habit Section */
     .habit-image{
