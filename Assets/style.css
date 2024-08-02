@@ -476,16 +476,19 @@ h5{
     }
     .banner-btn{
         margin-top:  0.1rem;
+        
         /* justify-content: space-between; */
     }
     .primary-btn{
         /* border-radius: 1rem; */
-        padding: 1.5rem ;
+        padding: 1rem ;
+        font-size: 1.2rem;
     
     }
     .secondary-btn{
         /* border-radius: 1.5rem; */
-        padding: 1.5rem ;
+        padding: 1rem ;
+        font-size: 1.2rem;
     
     }
     
@@ -499,13 +502,13 @@ h5{
     }
     .item-1{
         top: 35rem;
-        right: 7rem;
+        right: 4rem;
         padding: 0.7rem;
         border-radius: 0.6rem;
     }
     .item-2{
         top: 45rem;
-        right: 22rem;
+        right:15rem;
         padding: 0.7rem;
         border-radius: 0.6rem;
     }
@@ -532,23 +535,23 @@ h5{
     /* Run sectipn */
     .run-section{
         flex-direction: column;
-        max-width: 100%;
+        max-width: 90%;
     }
     .run-img{
-        padding: 2rem;
+        padding: 1.5rem;
     }
     .run-img img{
-        width: 28rem;
-        height: 20rem;
+        width:18.5rem;
+        height: 18.5rem;
     }
     .run-content{
-        min-width: 100%;
-        padding: 2rem;
+        min-width: 90%;
+        padding: 1.5rem;
         
     }
     .run-title{
         font-size: 2rem;
-        padding-right:20rem;
+        padding-right:5rem;
         
     }
     .run-description{
@@ -557,7 +560,7 @@ h5{
         padding-right: 5rem;
     }
     .run-btn{
-        padding:1rem 11rem ;
+        padding:1rem 6.8rem ;
         margin-top: 1rem;
     }
 
