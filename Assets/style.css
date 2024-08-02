@@ -29,7 +29,7 @@ h3{
 h5{
     font-size: 1.2rem;
 }
-
+ 
 .primary-color{
     color: rgba(230, 83, 60, 1);
 }
@@ -401,6 +401,89 @@ h5{
     padding-left: 15rem;
 }
 
+/* Bmi Calculator-01 Style */
+.bmi-calculator-1{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.bmi-cal-description{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 0.5rem ;
+    margin-bottom: 3rem;
+}
+/* Bmi-Calculator=02 Style */
+.bmi-calculator-2{
+    background-color: rgba(34, 34, 34, 1);
+    width: 100%;
+    height: auto;
+    
+}
+.bmi-calculator-2-content{
+    display: flex;
+    justify-content: space-between;
+}
+.chart{
+    width: 50%;
+    margin-bottom: 3rem;
+}
+.chart-title{
+    font-size: 1.7rem;
+    padding: 3rem 0;
+}
+
+table, tr, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+td{
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem 1.5rem;
+}
+th{
+    padding: 1rem 1.5rem;
+}
+.calculate{
+    width: 50%;
+}
+.calculate-title{
+    font-size: 1.7rem;
+    padding-top: 3rem ;
+}
+.calculate-description{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+}
+
+.calculate-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.inpt-5{
+    grid-column: 1/span 2;
+    
+}
+.cmn-inpt{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0.9rem 1rem;
+}
+.cal-btn{
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
 /* Footer Style */
 .footer-section{
     background-color: rgba(255, 255, 255, 0.1) ;
