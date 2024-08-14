@@ -75,7 +75,6 @@ h5{
 }
 .logo{
     max-width: 40%;
-    /* text-transform: uppercase; */
     font-weight: bolder;
     font-style: italic;
     font-size: 2.3rem;
@@ -99,7 +98,6 @@ h5{
 }
 .nav-iteam a{
     text-decoration: none;
-    /* text-transform: uppercase; */
     color: white;
     font-weight: normal;
     padding: 0.5rem 1.4rem;
@@ -127,7 +125,6 @@ h5{
 .banner-title{
     display: flex;
     flex-direction: column;
-    /* margin: 0 auto; */
     font-size: 2.8rem;
 }
 .miama{
@@ -164,8 +161,6 @@ h5{
 }
 .item-1{
     background-color: rgba(255, 255, 255, 0.1);
-    /* width: 8rem;
-    height: 4rem; */
     border: none;
     border-radius: 1.2rem;
     display: flex;
@@ -198,8 +193,6 @@ h5{
     align-items: center;
     gap: 0.5rem;
     background-color: rgba(255, 255, 255, 0.1);
-    /* width:10rem;
-    height: 4rem; */
     border: none;
     border-radius: 1.2rem;
     padding: 1rem;
@@ -241,6 +234,10 @@ h5{
     border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
+}
+.habit-img-title{
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 .habit-img-description{
     font-size: 0.9rem;
@@ -517,36 +514,60 @@ input::placeholder{
     background-size: cover;
     grid-column:1 ;
     border-radius: 2rem;
+    position: relative;
 }
 .team-content-img-2{
     background-image: url("../Images/trainer2.png");
     background-size: cover;
     grid-column:2 ;
     border-radius: 2rem;
+    position: relative;
 }
 .team-content-img-3{
     background-image: url("../Images/trainer3.png");
     background-size: cover;
     grid-column:3 ;
     border-radius: 2rem;
+    position: relative;
 }
 .team-content-img-4{
     background-image: url("../Images/trainer4.png");
     background-size: cover;
     grid-column:1 ;
     border-radius: 2rem;
+    background-position: center;
+    position: relative;
 }
 .team-content-img-5{
     background-image: url("../Images/trainer5.png");
     background-size: cover;
     grid-column:2 ;
     border-radius: 2rem;
+    position: relative;
 }
 .team-content-img-6{
     background-image: url("../Images/trainer6.png");
     background-size: cover;
     grid-column:3 ;
     border-radius: 2rem;
+    position: relative;
+}
+.team-content-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+}
+.team-content-img-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.team-content-img-description{
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* Footer Style */
@@ -644,8 +665,6 @@ input::placeholder{
     }
     .banner-btn{
         margin-top:  0.1rem;
-        
-        /* justify-content: space-between; */
     }
     .primary-btn{
         /* border-radius: 1rem; */
@@ -719,7 +738,7 @@ input::placeholder{
     }
     .habit-run-btn{
         margin-top: 2rem;
-        padding: 1rem 4rem;
+        padding: 1rem 7.4rem;
     }
     .run-img img{
         width:18.5rem;
@@ -851,35 +870,31 @@ input::placeholder{
         grid-template-columns: repeat(1, 1fr);
     }
     .team-content-img-1{
-        background-image: url("../Images/trainer1.png");
-        background-size: cover;
-        grid-column:1 ;
-        border-radius: 2rem;
+        display: none;
     }
     .team-content-img-2{
         background-image: url("../Images/trainer2.png");
         background-size: cover;
         grid-column:1 ;
         border-radius: 2rem;
-        display: none;
+        
     }
     .team-content-img-3{
         background-image: url("../Images/trainer3.png");
         background-size: cover;
         grid-column:1 ;
+        grid-row: 3;
         border-radius: 2rem;
     }
     .team-content-img-4{
-        background-image: url("../Images/trainer4.png");
-        background-size: cover;
-        grid-column:1 ;
-        border-radius: 2rem;
+        display: none;
     }
     .team-content-img-5{
         background-image: url("../Images/trainer5.png");
         background-size: cover;
         grid-column:1 ;
         border-radius: 2rem;
+        z-index: 1;
     }
     .team-content-img-6{
         background-image: url("../Images/trainer6.png");
@@ -1142,6 +1157,46 @@ input::placeholder{
         margin-top: 1.5rem;
         padding: 0.5rem 2rem;
         margin-bottom: 3rem;
+    }
+     /* Team Sectiom */
+    
+     .team-content-img{
+        max-width: 100%;
+        height: 1500px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-content-img-1{
+        display: none;
+    }
+    .team-content-img-2{
+        background-image: url("../Images/trainer2.png");
+        background-size: cover;
+        grid-column:1 ;
+        border-radius: 2rem;
+        
+    }
+    .team-content-img-3{
+        background-image: url("../Images/trainer3.png");
+        background-size: cover;
+        grid-column:1 ;
+        grid-row: 3;
+        border-radius: 2rem;
+    }
+    .team-content-img-4{
+        display: none;
+    }
+    .team-content-img-5{
+        background-image: url("../Images/trainer5.png");
+        background-size: cover;
+        grid-column:1 ;
+        border-radius: 2rem;
+        z-index: 1;
+    }
+    .team-content-img-6{
+        background-image: url("../Images/trainer6.png");
+        background-size: cover;
+        grid-column:1 ;
+        border-radius: 2rem;
     }
     /* Footer Section */
     
